@@ -1,9 +1,6 @@
-import java.util.Scanner;
-
-class main2 {
+public class Main {
     public static void main(String[] args) {
-        Scanner int1 = new Scanner(System.in);
-        int n = int1.nextInt();
-
+      CryptoCurrency[] currencies = new CryptoCurrency[]{new BitCoin("BTC", 45_000, 20), new Riddle("Riddle", 20_000, 10)};
+        System.out.println(CryptoCurrency.calculatePrice(currencies));
     }
 }
